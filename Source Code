@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    // Define constants 'c', 'x', and 'y'
+    double c = 30.0;
+    double x = 5.0;
+    double y = 1.0;
+
+    // Evaluate the quadratic expression
+    double k = (2 * c * pow(x, 2) - pow(y, 2)) / (2 * M_PI);
+
+    // Display the result
+    printf("k = %lf\n", k);
+
+    return 0;
+}
